@@ -38,11 +38,14 @@ function mainSlider() {
 		doAnimations($animatingElements);
 	});
 	BasicSlider.slick({
-		autoplay: false,
-		autoplaySpeed: 10000,
+		infinite:true,
+		autoplay: true,
+		autoplaySpeed: 1000,
 		dots: false,
 		fade: true,
 		arrows: false,
+		slidesToShow: 1,
+		slidesToScroll: 1,
 		responsive: [
 			{ breakpoint: 767, settings: { dots: false, arrows: false } }
 		]
@@ -65,6 +68,12 @@ function mainSlider() {
 	}
 }
 mainSlider();
+// counter 
+$('.counter').counterUp({
+    delay: 10,
+    time: 1000
+});
+
 
 
 // owlCarousel
