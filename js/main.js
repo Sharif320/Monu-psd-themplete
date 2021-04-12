@@ -73,7 +73,37 @@ $('.counter').counterUp({
     delay: 10,
     time: 1000
 });
+// testimonial area slider 
 
+$(".testimonial-active").slick({
+
+	infinite:true,
+	autoplay: true,
+	autoplaySpeed: 1000,
+	dots: true,
+	fade: false,
+	arrows: false,
+	slidesToShow: 1,
+	slidesToScroll: 1,
+	responsive: [
+		{ breakpoint: 767, settings: { dots: false, arrows: false } }
+	]
+});
+// client logo slider 
+$(".client-active").slick({
+
+	infinite:true,
+	autoplay: true,
+	autoplaySpeed: 1000,
+	dots: false,
+	fade: false,
+	arrows: false,
+	slidesToShow: 5,
+	slidesToScroll: 1,
+	responsive: [
+		{ breakpoint: 767, settings: { dots: false, arrows: false } }
+	]
+});
 
 
 // owlCarousel
