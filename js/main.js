@@ -101,7 +101,22 @@ $(".client-active").slick({
 	slidesToShow: 5,
 	slidesToScroll: 1,
 	responsive: [
-		{ breakpoint: 767, settings: { dots: false, arrows: false } }
+		{ breakpoint: 991, settings: {
+			 dots: false,
+			  arrows: false,
+			  slidesToShow:4,
+			  slidesToScroll:1
+			 } 
+	},
+		{ breakpoint: 767, settings: {
+			 dots: false,
+			  arrows: false,
+			  slidesToShow:4,
+			  slidesToScroll:1
+			 } 
+	}
+	// 	{ breakpoint: 767, settings: { dots: false, arrows: false } 
+	// }
 	]
 });
 
