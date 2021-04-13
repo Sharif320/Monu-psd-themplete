@@ -486,7 +486,9 @@ color: #777777;
 }
 /* counter area end  */
 /* team area start  */
-#team-des{}
+#team-des{
+    overflow: hidden;
+}
 .team-wrapper{}
 .team-wrapper .team-img{
     position: relative;
@@ -645,10 +647,11 @@ margin-top: 15px;
 .client-single{}
 .client-single .client-logo{}
 .client-single .client-logo img{}
+
 /* client area end  */
 /* footer area start  */
 #footer-area{
-    padding-top: 80px;
+    /* padding-top: 80px; */
     background-color: #343434;
 }
 .footer-contact {}
@@ -670,6 +673,11 @@ margin-top: 15px;
     display: inline-block;
     margin-right: 15px;
     color: white;
+    transition: all linear .4s;
+    cursor: pointer;
+}
+.footer-contact .footer-area-icon i:hover{
+    color: #505cfd;
 }
 .footer-links{}
 .footer-links h3{
@@ -682,18 +690,22 @@ margin-top: 15px;
     position: relative;
     display: inline-block;
     width: 49%;
-    padding: 10px 0px;
+    padding: 8px 0px;
     color: #777777;
 }
 .footer-links ul li::before{
-    position: absolute;
-    content: "\f0da";
-    font-family: "Font Awesome 5 Free";
-    top: 0;
-    left: 0;
-    color: red;
-    
-
+  
+content: "\f155";
+  
+font-family:"Font Awesome 5 free";
+  
+position: absolute;
+  
+top: 0;
+  
+left: 0;
+  
+color: white;
 }
 .footer-blog{}
 .footer-blog h3{
@@ -703,15 +715,40 @@ margin-top: 15px;
     display: flex;
     justify-content: space-between;
     /* margin-bottom: 22px; */
-    margin: 48px 0px 0px 0px;
+    margin: 44px 0px 0px  0px;
 }
 .footer-blog .footer-inner .footer-img{}
 .footer-blog .footer-inner .footer-img img{}
-.footer-blog .footer-inner .footer-content{}
+.footer-blog .footer-inner .footer-content{
+    /* width: 80%; */
+    /* padding-right: 14px; */
+}
 .footer-blog .footer-inner .footer-content p{
     color: #777777;
 }
 .footer-blog .footer-inner .footer-content span{
     color: #777777;
 }
+.copy-right{
+    padding: 40px 0px;
+    border-top: 2px solid #777777;
+}
+.copy-right .copy-content{}
+.copy-right .copy-content p{
+    color: #777777;
+}
+.copy-right .copy-list{}
+.copy-right .copy-list ul{
+    display: flex;
+    justify-content: flex-end;
+}
+.copy-right .copy-list ul li{
+    color: #777777;
+    margin-left: 33px;
+    /* display: inline-block; */
+}
+.footer-wrap {
+    padding: 70px 0px;
+}
+
 /* footer area end  */
