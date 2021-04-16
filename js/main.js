@@ -2,11 +2,7 @@
 "use strict";
 
 // meanmenu
-$('#mobile-menu').meanmenu({
-	meanMenuContainer: '.mobile-menu',
-	meanScreenWidth: "992"
-});
-
+$('.main-nav').slicknav();
 // One Page Nav
 var top_offset = $('.header-area').height() - 10;
 $('.main-menu nav ul').onePageNav({

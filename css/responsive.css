@@ -7,7 +7,9 @@
 
 /* Normal desktop :992px. */
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-
+    .header-search .btn {
+        padding: 15px 25px;
+    }
     .main-nav ul li {
         
         margin-left: 25px;
@@ -183,6 +185,17 @@
     #client-area {
         padding: 50px 0px;
     }
+    .footer-contact {
+        padding-left: 20px;
+    }
+    .footer-blog .footer-inner .footer-content {
+       
+        padding: 0px 29px;
+    }
+    .footer-blog .footer-inner .footer-content p {
+       
+        line-height: 20px;
+    }
    
 
 
@@ -195,10 +208,36 @@
 /* Large Mobile :480px. */
 @media only screen and (min-width: 576px) and (max-width: 767px) {
 
+    .slider-active .single-slide .single-wrapper h1 {
+        line-height: 40px;
+        font-size: 30px;
+    }
+    .single-wrapper {
+        text-align: center;
+        margin-top: 0px;
+    }
+     .main-nav {
+        display:none;
+    }
+
+     .slicknav_menu {
+        display:block;
+    }
+    #feathers-area {
+     
+        margin-top: 50px;
+    }
  
 }
 /* extra small device  */
 @media only screen and  (max-width: 575px) {
+    .main-nav {
+        display:none;
+    }
+
+     .slicknav_menu {
+        display:block;
+    }
 
  
 }

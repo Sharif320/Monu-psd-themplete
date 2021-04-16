@@ -196,33 +196,53 @@ a {
 #scrollUp:hover {
     background: rgb(68, 68, 68);
 }
-#main-header {
-    padding: 0px 55px;
+/* header start  */
+.slicknav_menu {
+    display:none;
+}
+#header-area{
+    /* display: flex; */
+    padding: 0px 22px;
     position: absolute;
-    top: 0;
-    left: 0;
+    z-index: 999;
+    top: auto;
     right: 0;
-    z-index: 999999;
-    border-bottom: 2px solid #d6d4d3;
+    left: 0;
 }
+.nav-logo{
+    padding: 20px 0px;
+}
+.nav-logo a{
+    /* display: flex; */
+    /* display: inline-block; */
+    /* padding: 20px 0px; */
+}
+.nav-logo a img{}
+.main-nav{}
+.main-nav ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 60px;
+}
+.main-nav ul li{
+    margin-left: 60px;
+}
+.main-nav ul li a{
+    padding: 30px 0px;
+    display: inline-block;
+}
+.main-nav ul li a:hover{}
+.header-search{
+    padding: 10px 0px;
+    text-align: end;
+}
+.header-search .btn{}
 
-.main-nav {
-}
-.main-nav .navbar-brand {
-}
-.main-nav ul {
-}
-.main-nav ul li {
-    display: inline-block;
-    margin-left: 50px;
-    float: left;
-}
-.main-nav ul li a {
-    padding: 40px 0px;
-    display: inline-block;
-}
-.main-nav ul li a:hover {
-}
+
+
+
+/* header end  */
 #slider-area {
 }
 .slider-active {
