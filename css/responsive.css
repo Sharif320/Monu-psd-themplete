@@ -32,6 +32,7 @@
       
         top: 84px;
     }
+
     .about-wrapper p {
         margin-top: 20px;
     }
@@ -76,7 +77,7 @@
     }
     .feathers-inner .feathers-wrapper p {
         margin-top: 20px;
-       
+        font-size: 14px;
     }
     #feathers-area {
      
@@ -227,6 +228,119 @@
      
         margin-top: 50px;
     }
+    .feathers-inner .feathers-wrapper {
+      
+        padding: 40px 60px;
+        border-left: none;
+    
+    }
+  
+    .border-bottom{
+        border-bottom: 2px solid white;
+    }
+    #about-area {
+        padding: 50px 0px;
+    }
+    .about-img img {
+        width: 100%;
+    }
+    .about-wrapper h2 {
+        line-height: 30px;
+    
+        font-size: 20px;
+    }
+    .about-wrapper h2::after {
+     
+        top: 38px;
+    }
+    .about-wrapper p {
+        margin-top: 25px;
+    }
+    .about-wrapper .btn {
+     
+        margin-top: 15px;
+    }
+    .about-wrapper {
+        padding: 0px 25px;
+    }
+    .about-img {
+        margin-top: 30px;
+    }
+    .about-title h2 {
+        line-height: 30px;
+        font-size: 20px;
+    }
+    .subscribe-form form {
+       
+        flex-direction: column;
+    }
+    .subscribe-form form input {
+     
+        width: 50%;
+        margin: 13px auto;
+    }
+    .subscribe-form {
+        margin-top: 30px;
+    }
+    .subscribe-form form button {
+      
+        margin-top: 15px;
+    }
+    #portfolio-area .portfolio-wrapper {
+       
+        margin-bottom: 30px;
+    }
+    .pricing-wrapper .pricing-inner {
+       
+        margin-bottom: 30px;
+    }
+    .counter-wrapper {
+       
+        margin-bottom: 30px;
+    }
+    .team-wrapper {
+        margin-top: 40px;
+    }
+    .blog-wrapper {
+        margin-bottom: 40px;
+    }
+    #blog-area {
+        padding: 80px 0px 40px 0px;
+    }
+    .testimonial-active {
+      
+        padding: 60px 60px 60px 60px;
+     
+    }
+    .footer-contact {
+     text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .footer-links ul {
+       
+        text-align: start;
+    }
+    .footer-links {
+        width: 43%;
+        margin: 0px auto 30px auto;
+        text-align: center;
+    }
+    .footer-blog {
+        width: 65%;
+        margin: 30px auto 0px auto;
+        text-align: center;
+    }
+    .copy-right .copy-content {
+        text-align: center;
+    }
+    .copy-right .copy-list ul {
+       
+        justify-content: center;
+    }
+    .copy-right .copy-list {
+        margin-top: 11px;
+    }
  
 }
 /* extra small device  */
@@ -237,6 +351,187 @@
 
      .slicknav_menu {
         display:block;
+    }
+    .nav-logo {
+       
+        text-align: center;
+    }
+    .slider-active .single-slide .single-wrapper h1 {
+        line-height: 40px;
+        font-size: 30px;
+    }
+    .single-wrapper {
+        
+        margin-top: 120px;
+        padding: 0px 50px;
+    }
+    .slider-active .single-slide {
+        
+        height: 70vh;
+    }
+    .slider-active .single-slide .single-wrapper .slider-icon i {
+    
+        margin: 0px 5px;
+     
+    }
+    .slider-active .single-slide .single-wrapper .btn {
+ 
+        padding: 15px 20px;
+    }
+    #feathers-area {
+     
+        margin-top: 50px;
+    }
+    .feathers-inner .feathers-wrapper {
+      
+        padding: 40px 60px;
+        border-left: none;
+    
+    }
+  
+    .border-bottom{
+        border-bottom: 2px solid white;
+    }
+    #about-area {
+        padding: 50px 0px;
+    }
+    .about-img img {
+        width: 100%;
+    }
+    .about-wrapper h2 {
+        line-height: 30px;
+        font-size: 22px;
+    }
+    .about-wrapper h2::after {
+        top: 60px;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    .about-wrapper p {
+        margin-top: 25px;
+    }
+    .about-wrapper .btn {
+     
+        margin-top: 15px;
+    }
+    .about-wrapper {
+        /* padding: 0px 25px; */
+        padding: 0px;
+        text-align: center;
+    }
+    .about-img {
+        margin-top: 30px;
+    }
+    .about-title h2 {
+        line-height: 30px;
+        font-size: 22px;
+    }
+    .subscribe-form form {
+       
+        flex-direction: column;
+    }
+    .subscribe-form form input {
+     
+        width: 50%;
+        margin: 13px auto;
+    }
+    .subscribe-form {
+        margin-top: 30px;
+    }
+    .subscribe-form form button {
+      
+        margin-top: 15px;
+    }
+    #portfolio-area {
+        padding: 80px 0px 50px 0px;
+    }
+    #portfolio-area .portfolio-wrapper {
+        margin: 0px 20px 30px 20px;
+    }
+    #portfolio-area .portfolio-wrapper .btn {
+   
+        padding: 15px 20px;
+    }
+    #pricing-area {
+     
+        padding: 80px 0px 50px 0px;
+    }
+    .pricing-wrapper .pricing-inner {
+       
+        margin-bottom: 30px;
+    }
+    #counter-area {
+  
+        padding: 50px 0px 20px 0px;
+    }
+    .counter-wrapper {
+       
+        margin-bottom: 30px;
+    }
+    .team-wrapper {
+        margin-top: 40px;
+    }
+    .blog-wrapper {
+        margin-bottom: 40px;
+    }
+    #blog-area {
+        padding: 80px 0px 40px 0px;
+    }
+    .blog-wrapper .card .card-body {
+       
+        text-align: center;
+    }
+    .blog-wrapper .card .card-footer {
+       
+        text-align: center;
+    }
+    .blog-wrapper .card .card-footer .btn {
+        padding: 15px 20px;
+    }
+    #testimonial-area {
+      
+        padding: 30px 0px;
+     
+    }
+    .testimonial-active {
+        padding: 40px 20px 40px 20px;
+    }
+    .client-single {
+        text-align: center;
+    }
+    .client-single img {
+        margin: auto;
+    }
+   
+    .footer-contact {
+     text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .footer-links ul {
+       
+        text-align: start;
+    }
+    .footer-links {
+        width: 75%;
+        margin: 0px auto 30px auto;
+        text-align: center;
+    }
+    .footer-blog {
+        width: 65%;
+        margin: 30px auto 0px auto;
+        text-align: center;
+    }
+    .copy-right .copy-content {
+        text-align: center;
+    }
+    .copy-right .copy-list ul {
+       
+        justify-content: center;
+    }
+    .copy-right .copy-list {
+        margin-top: 11px;
     }
 
  

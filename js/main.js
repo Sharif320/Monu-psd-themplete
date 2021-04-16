@@ -82,7 +82,7 @@ $(".testimonial-active").slick({
 	slidesToShow: 1,
 	slidesToScroll: 1,
 	responsive: [
-		{ breakpoint: 767, settings: { dots: false, arrows: false } }
+		{ breakpoint: 767, settings: { dots: true, arrows: false } }
 	]
 });
 // client logo slider 
@@ -107,7 +107,14 @@ $(".client-active").slick({
 		{ breakpoint: 767, settings: {
 			 dots: false,
 			  arrows: false,
-			  slidesToShow:4,
+			  slidesToShow:2,
+			  slidesToScroll:1
+			 } 
+	},
+		{ breakpoint: 575, settings: {
+			 dots: false,
+			  arrows: false,
+			  slidesToShow:1,
 			  slidesToScroll:1
 			 } 
 	}
