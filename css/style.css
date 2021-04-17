@@ -355,7 +355,25 @@ color: white;
     display: inline-block;
     margin-top: 30px;
 }
-.about-img {}
+.about-img {
+    position: relative;
+    display: block;
+}
+
+.about-img::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    content: "";
+    background: #FEAC5E;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+opacity: 0.5;
+
+}
 .about-img img{}
 /* about area end */
 /* subscribe area start  */
@@ -520,8 +538,13 @@ color: #777777;
 .team-wrapper .team-img{
     position: relative;
 }
-.team-wrapper .team-img img{
+.team-wrapper .team-img img {
     width: 100%;
+  
+    filter: grayscale(100%);
+}
+.team-wrapper:hover .team-img img{
+    filter: grayscale(0);
 }
 .team-wrapper .team-img .team-overlay{
     position: absolute;
@@ -678,6 +701,11 @@ margin-top: 15px;
 }
 
 /* client area end  */
+/* google map  */
+#contact-map{
+    min-height: 400px;
+    width: 100%;
+}
 /* footer area start  */
 #footer-area{
     /* padding-top: 80px; */
