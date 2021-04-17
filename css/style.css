@@ -184,14 +184,14 @@ a {
     color: rgb(255, 255, 255);
 }
 #scrollUp {
-    background: rgb(125, 186, 47);
+    background: rgb(239, 68, 17);
     height: 35px;
     width: 35px;
     right: 50px;
     bottom: 77px;
     color: rgb(255, 255, 255);
     text-align: center;
-    border-radius: 50%;
+    border-radius: 20%;
     font-size: 20px;
     line-height: 34px;
 }
@@ -374,7 +374,9 @@ background: linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E); /* W3C, IE 10+
 opacity: 0.5;
 
 }
-.about-img img{}
+.about-img img {
+    width: 100%;
+}
 /* about area end */
 /* subscribe area start  */
 #subscribe-area{
